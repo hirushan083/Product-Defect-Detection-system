@@ -3,24 +3,21 @@
 A **Convolutional Neural Network (CNN)** based web application for detecting defects in manufactured products.  
 The application allows users to upload images of products and instantly determine whether they are **Defective** or **Non-Defective**.
 
-This project demonstrates the complete workflow of a deep learning-based computer vision system:
-- Data preprocessing
-- CNN model training
-- Performance evaluation
-- Deployment as a web app for real-time inference
+This project demonstrates the complete workflow of a deep learning-based computer vision system
 
----
+* Data preprocessing
+* CNN model training
+* Performance evaluation
+* Deployment as a web app for real-time inference
 
 ## 🧠 Features
 
-- **Binary classification**: Defective / Non-Defective
-- **Image preprocessing**: Resizing, normalization
-- **Real-time predictions** via Streamlit web interface
-- **Confidence score** displayed with each prediction
-- **Lightweight deployment** using Google Drive hosted model to avoid GitHub file size limits
-- **Visualization** of uploaded images in the web app
-
----
+ *-*Binary classification**: Defective / Non-Defective
+ *-*Image preprocessing**: Resizing, normalization
+ *-*Real-time predictions** via Streamlit web interface
+ *-*Confidence score** displayed with each prediction
+ *-*Lightweight deployment** using Google Drive hosted model to avoid GitHub file size limits
+ *-*Visualization** of uploaded images in the web app
 
 ## 🚀 Tech Stack
 
@@ -39,8 +36,8 @@ This project demonstrates the complete workflow of a deep learning-based compute
 defect_detection_webapp/
 
 *-* app.py           # Streamlit web app code
-* requirements.txt # Python dependencies
-* README.md        # Project documentation
+*-* requirements.txt # Python dependencies
+*-* README.md        # Project documentation
 
 **Note:** The trained model file (`.h5`) is **hosted externally** via Google Drive and automatically
 
