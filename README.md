@@ -44,10 +44,10 @@ defect_detection_webapp/
 **Note:** The trained model file (`.h5`) is **hosted externally** via Google Drive and automatically
 
 Install dependencies:
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 Run the app locally:
-streamlit run app.py
+      streamlit run app.py
 
 Open the URL shown in the terminal (usually http://localhost:8501)
 Upload a product image to get predictions (casting_data file in the dataset)
@@ -61,10 +61,10 @@ The trained model is automatically downloaded from Google Drive on first launch.
 
 🔧 How It Works
 
-Upload Image: User uploads a product image via the web interface.
-Preprocessing: Image resized to 224x224 pixels and normalized.
-Prediction: CNN model predicts defect status and computes confidence.
-Result Display: Shows Defective / Non-Defective with confidence percentage.
+* Upload Image: User uploads a product image via the web interface.
+* Preprocessing: Image resized to 224x224 pixels and normalized.
+* Prediction: CNN model predicts defect status and computes confidence.
+* Result Display: Shows Defective / Non-Defective with confidence percentage.
 
 📊 Model Performance
 
@@ -74,21 +74,21 @@ CNN achieved high accuracy for binary defect detection (can add metrics here if 
 
 💡 Future Improvements
 
-Use Transfer Learning with ResNet or EfficientNet for higher accuracy
-Add batch image testing
-Add dashboard for model performance visualization
-Optimize model using TensorFlow Lite for edge deployment
-Real-time camera input support
+* Use Transfer Learning with ResNet or EfficientNet for higher accuracy
+* Add batch image testing
+* Add dashboard for model performance visualization
+* Optimize model using TensorFlow Lite for edge deployment
+* Real-time camera input support
 
 📄 References
 
-Kaggle Dataset:[Casting Product Image Data](https://www.kaggle.com/datasets/ravirajsinh45/casting-product-image-data-for-quality-inspection)
-TensorFlow / Keras Documentation: https://www.tensorflow.org/
-Streamlit Documentation: https://docs.streamlit.io/
+* Kaggle Dataset:[Casting Product Image Data](https://www.kaggle.com/datasets/ravirajsinh45/casting-product-image-data-for-quality-inspection)
+* TensorFlow / Keras Documentation: https://www.tensorflow.org/
+* Streamlit Documentation: https://docs.streamlit.io/
 
 👨‍💻 Author
 
 Name – Kavindu hirushan (Electrical & Electronics Engineering Student)
 
-Email: kavinduhirushan083@gmail.com
-GitHub: https://github.com/hirushan083
+* Email: kavinduhirushan083@gmail.com
+* GitHub: https://github.com/hirushan083
