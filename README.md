@@ -37,10 +37,10 @@ This project demonstrates the complete workflow of a deep learning-based compute
 ## 📁 Project Structure
 
 defect_detection_webapp/
-│
-├── app.py # Streamlit web app code
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+
+* app.py           # Streamlit web app code
+* requirements.txt # Python dependencies
+* README.md        # Project documentation
 
 **Note:** The trained model file (`.h5`) is **hosted externally** via Google Drive and automatically
 
