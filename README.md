@@ -38,7 +38,7 @@ This project demonstrates the complete workflow of a deep learning-based compute
 
 defect_detection_webapp/
 
-* app.py           # Streamlit web app code
+*-* app.py           # Streamlit web app code
 * requirements.txt # Python dependencies
 * README.md        # Project documentation
 
