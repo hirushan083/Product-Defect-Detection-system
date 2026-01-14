@@ -35,6 +35,7 @@ This project demonstrates the complete workflow of a deep learning-based compute
 
 
 ## 📁 Project Structure
+
 defect_detection_webapp/
 │
 ├── app.py # Streamlit web app code
@@ -43,14 +44,17 @@ defect_detection_webapp/
 
 **Note:** The trained model file (`.h5`) is **hosted externally** via Google Drive and automatically
 
-Install dependencies:
+* Install dependencies
+
       pip install -r requirements.txt
 
-Run the app locally:
+* Run the app locally
+
       streamlit run app.py
 
-Open the URL shown in the terminal (usually http://localhost:8501)
-Upload a product image to get predictions (casting_data file in the dataset)
+* Open the URL shown in the terminal (usually http://localhost:8501)
+
+* Upload a product image to get predictions (casting_data file in the dataset)
 
 🌐 Deployment
 
